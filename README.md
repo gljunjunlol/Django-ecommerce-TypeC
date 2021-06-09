@@ -1,5 +1,5 @@
 # Django-ecommerce-TypeC
-e-com project
+e-com project - existing
 
 
 
