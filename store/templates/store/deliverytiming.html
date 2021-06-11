@@ -1,0 +1,16 @@
+{% extends 'store/main.html' %}
+{% load static %}
+{% block content %}
+
+
+<h1>Hello</h1>
+
+<div style="text-align: center; margin-top: 100px">
+    <input type="datetime-local">
+    {{ example_form.my_date_field}}
+</div>
+
+
+
+<h1>Choose Timing - 9am       10am        12pm        2pm       4pm          6pm         8pm</h1>
+{% endblock content %}

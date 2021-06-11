@@ -106,3 +106,7 @@ def processOrder(request):
 
 def voucher(request):
     return render (request, 'store/voucher.html')
+
+
+def deliverytiming(request):
+    return render (request, 'store/deliverytiming.html')

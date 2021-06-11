@@ -10,4 +10,5 @@ urlpatterns = [
     path('process_order/', views.processOrder, name="process_order"),
 
     path('voucher/', views.voucher, name = "voucher"),
+    path('deliverytiming/', views.deliverytiming, name = 'deliverytiming')
 ]
